@@ -1,0 +1,18 @@
+﻿  add.cpp
+  C__basic.cpp
+C:\Users\陈伟杰\source\repos\C.test1\C.test1\C__basic.cpp(160,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\陈伟杰\source\repos\C.test1\C.test1\C__basic.cpp(160,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\陈伟杰\source\repos\C.test1\C.test1\C__basic.cpp(161,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\陈伟杰\source\repos\C.test1\C.test1\C__basic.cpp(161,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\陈伟杰\source\repos\C.test1\C.test1\C__basic.cpp(162,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\陈伟杰\source\repos\C.test1\C.test1\C__basic.cpp(162,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\陈伟杰\source\repos\C.test1\C.test1\C__basic.cpp(163,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\陈伟杰\source\repos\C.test1\C.test1\C__basic.cpp(163,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\陈伟杰\source\repos\C.test1\C.test1\C__basic.cpp(164,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\陈伟杰\source\repos\C.test1\C.test1\C__basic.cpp(164,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\陈伟杰\source\repos\C.test1\C.test1\C__basic.cpp(165,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\陈伟杰\source\repos\C.test1\C.test1\C__basic.cpp(165,9): message : 请考虑在格式字符串中使用“%zd”
+C:\Users\陈伟杰\source\repos\C.test1\C.test1\C__basic.cpp(166,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\陈伟杰\source\repos\C.test1\C.test1\C__basic.cpp(166,9): message : 请考虑在格式字符串中使用“%zd”
+  正在生成代码...
+  C.test1.vcxproj -> C:\Users\陈伟杰\source\repos\C.test1\x64\Debug\C.test1.exe
