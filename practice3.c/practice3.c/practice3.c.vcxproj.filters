@@ -15,22 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="function.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="function2.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="function3.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="function4.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="function5.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="function6.c">
+    <ClCompile Include="practice3.1.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
