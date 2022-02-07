@@ -19,14 +19,21 @@ void game()
 	InitBoard(show, ROWS, COLS, '*');
 
 	//¥Ú”°∆Â≈Ã
-	DisPlayBoard(mine, ROW, COL);
 	DisPlayBoard(show, ROW, COL);
+
+	//≤º÷√¿◊
+	SetMine(mine, ROW, COL);
+	//DisPlayBoard(mine, ROW, COL);
+	
+	//≈≈≤È¿◊
+	FindMine(mine, show, ROW, COL);
 }
 
 
 int main()
 {
 	int input = 0;
+	srand((unsigned int)time(NULL));
 	do
 	{
 		menu();
