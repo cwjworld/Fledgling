@@ -41,7 +41,7 @@ void DisPlayBoard(char board[ROWS][COLS], int row, int col)
 void SetMine(char mine[ROWS][COLS], int row, int col)
 {
 	//布置十个雷
-	int count = 10;
+	int count = EASY_COUNT;
 	while (count != 0)
 	{
 		//生成随机的下标
@@ -72,17 +72,18 @@ void FindMine(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col)
 	//输入排查的坐标
 	int x = 0;
 	int y = 0;
-	printf("请输入要排查的坐标:>");
-	scanf("%d%d", &x, &y);
+	int win = 0;
 	//判断坐标的合法性
-	while (1)
+	while (win < row * col - EASY_COUNT)
 	{
+		printf("请输入要排查的坐标:>");
+		scanf("%d%d", &x, &y);
 		if (x >= 1 && x <= row && y >= 1 && y <= col)
 		{
 			//检查该坐标是不是雷
-			if (mine[x][y] = '1')
+			if (mine[x][y] == '1')
 			{
-				printf("很遗憾，你被炸死了");
+				printf("很遗憾，你被炸死了\n");
 				DisPlayBoard(mine, row, col);
 				break;
 			}
@@ -92,11 +93,18 @@ void FindMine(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col)
 				int count = get_mine_count(mine, x, y);
 				show[x][y] = count + '0';
 				DisPlayBoard(show, row, col);
+				win++;
 			}
 		}
 		else
 		{
 			printf("坐标不合法，请重新输入\n");
 		}
+	}
+
+	if (win == row * col - EASY_COUNT)
+	{
+		printf("恭喜你，排雷成功部分\n");
+		DisPlayBoard(mine, row, col);
 	}
 }
