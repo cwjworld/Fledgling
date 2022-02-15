@@ -27,5 +27,11 @@
     <ClCompile Include="Operator4.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Operator5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="practice.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
