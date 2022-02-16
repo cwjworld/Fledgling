@@ -1,0 +1,7 @@
+﻿  Pointer1.c
+D:\CCCCCCC\Pointer\Pointer\Pointer1.c(42,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+D:\CCCCCCC\Pointer\Pointer\Pointer1.c(43,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+D:\CCCCCCC\Pointer\Pointer\Pointer1.c(45,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“char *”
+D:\CCCCCCC\Pointer\Pointer\Pointer1.c(46,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“char *”
+D:\CCCCCCC\Pointer\Pointer\Pointer1.c(41,1): warning C4133: “初始化”: 从“int *”到“char *”的类型不兼容
+  Pointer.vcxproj -> D:\CCCCCCC\Pointer\Debug\Pointer.exe
