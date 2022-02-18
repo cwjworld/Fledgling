@@ -21,5 +21,8 @@
     <ClCompile Include="Pointer2.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Pointer3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
