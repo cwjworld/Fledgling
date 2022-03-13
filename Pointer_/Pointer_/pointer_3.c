@@ -42,7 +42,6 @@ int Div(int x, int y)
 	return x / y;
 }
 
-
 void menu()
 {
 	printf("*******************************\n");
@@ -97,6 +96,39 @@ int main()
 			break;
 		}	
 
+	} while (input);
+	return 0;
+}
+
+//简化后的主函数
+int main()
+{
+	int input = 0;
+	do {
+		menu();
+		//pfArr就是函数指针
+		int (*pfArr[5])(int, int) = { NULL, Add, Sub, Mul, Div };
+		int x = 0;
+		int y = 0;
+		int ret = 0;
+		printf("请选择:>");
+		scanf("%d", &input);
+		if (input >= 1 && input <= 4)
+		{
+			printf("请输入2个操作数:>\n");
+			scanf("%d %d", &x, &y);
+			ret = (pfArr[input])(x, y);
+			printf("%ret = %d\n", ret);
+		}
+		else if(input == 0)
+		{
+			printf("退出程序\n");
+			break;
+		}
+		else
+		{
+			printf("选择错误\n");
+		}
 	} while (input);
 	return 0;
 }
