@@ -15,25 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Pointer_.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Pointer_1.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Pointer_2.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="pointer_3.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Pointer_4.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Pointer_5.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Pointer_6.c">
+    <ClCompile Include="Characters.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
