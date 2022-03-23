@@ -1,3 +1,4 @@
-﻿  Pointer_4.c
-D:\CCCCCCC\Pointer_\Pointer_\Pointer_4.c(71,7): warning C4013: “qsort”未定义；假设外部返回 int
+﻿  Pointer_6.c
+D:\CCCCCCC\Pointer_\Pointer_\Pointer_6.c(46,7): warning C4048: “int (*)[4]”和“int (*)[5]”数组的下标不同
+D:\CCCCCCC\Pointer_\Pointer_\Pointer_6.c(47,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“int”
   Pointer_.vcxproj -> D:\CCCCCCC\Pointer_\Debug\Pointer_.exe

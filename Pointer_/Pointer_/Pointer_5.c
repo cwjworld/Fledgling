@@ -254,7 +254,7 @@ int main()
 	printf("%d\n", strlen(&arr));//6
 	printf("%d\n", strlen(&arr + 1));//随机值
 	printf("%d\n", strlen(&arr[0] + 1));//5
-
+	
 
 	//[a b c d e f \0] 
 	printf("%d\n", sizeof(arr));//7
@@ -267,13 +267,13 @@ int main()
 
 	char* p = "abcdef";
 
-	printf("%d\n", strlen(p));
-	printf("%d\n", strlen(p + 1));
-	printf("%d\n", strlen(*p));
-	printf("%d\n", strlen(p[0]));
-	printf("%d\n", strlen(&p));
-	printf("%d\n", strlen(&p + 1));
-	printf("%d\n", strlen(&p[0] + 1));
+	printf("%d\n", strlen(p));//6
+	printf("%d\n", strlen(p + 1));//5
+	printf("%d\n", strlen(*p));//x
+	printf("%d\n", strlen(p[0]));//x
+	printf("%d\n", strlen(&p));//随机
+	printf("%d\n", strlen(&p + 1));//随机
+	printf("%d\n", strlen(&p[0] + 1));//5
 
 
 	//printf("%d\n", sizeof(p));
@@ -288,12 +288,6 @@ int main()
 
 	return 0;
 }
-
-
-
-
-
-#include <stdio.h>
 
 int main()
 {
