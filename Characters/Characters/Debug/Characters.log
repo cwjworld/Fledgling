@@ -1,2 +1,4 @@
-﻿  Characters.c
+﻿  Characters1.c
+D:\CCCCCCC\Characters\Characters\Characters1.c(11,20): warning C4013: “strstr”未定义；假设外部返回 int
+D:\CCCCCCC\Characters\Characters\Characters1.c(11,1): warning C4047: “初始化”:“char *”与“int”的间接级别不同
   Characters.vcxproj -> D:\CCCCCCC\Characters\Debug\Characters.exe
