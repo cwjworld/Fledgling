@@ -9,6 +9,7 @@ void menu()
 	printf("*******  0.exit   ******\n");
 	printf("************************\n");
 }
+
 void game()
 {
 	int ret = rand() % 100 + 1;
@@ -39,7 +40,7 @@ int main()
 	srand((unsigned int)time(NULL));
 	do
 	{
-		menu;
+		menu();
 		printf("ÇëÑ¡Ôñ:>");
 		scanf("%d", &input);
 		switch (input)
