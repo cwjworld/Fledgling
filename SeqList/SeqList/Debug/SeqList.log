@@ -1,0 +1,7 @@
+﻿  SeqList.c
+D:\CCCCCCC\SeqList\SeqList\SeqList.c(5,24): warning C4028: 形参 1 与声明不同
+D:\CCCCCCC\SeqList\SeqList\SeqList.c(8,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\CCCCCCC\SeqList\SeqList\SeqList.c(73,1): warning C4029: 声明的形参表不同于定义
+D:\CCCCCCC\SeqList\SeqList\SeqList.c(87,15): warning C4018: “<”: 有符号/无符号不匹配
+D:\CCCCCCC\SeqList\SeqList\SeqList.c(98,20): warning C4018: “<”: 有符号/无符号不匹配
+  SeqList.vcxproj -> D:\CCCCCCC\SeqList\Debug\SeqList.exe
